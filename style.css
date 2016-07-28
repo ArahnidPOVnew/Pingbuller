@@ -13,6 +13,10 @@ background-image: url(img/bg.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+background-color: #e3e3e3;
+}
+.header_top{
+
 }
 .container{
 max-width:960px;
@@ -20,6 +24,8 @@ width: 100%;
 margin: 0 auto;
 }
 .logo{
+padding-top: 70px;
+padding-bottom: 172px;
 width: 120px;
 height: 36px;
 text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
@@ -30,13 +36,84 @@ font-weight: 400;
 line-height: 34px;
 }
 .logo_after{
-background: linear-gradient(0deg, #734f82 0%, #‎‎34263b 100%);  
- -webkit-background-clip: text; 
- color: transparent;
+width: 29px;
+height: 36px;
+background: linear-gradient(0deg, #33263a 0%, #‎‎745083 100%);
+  -webkit-background-clip: text; 
+  color: transparent;
 font-family:LeagueGothicRegular;
 font-size: 48px;
 font-weight: 400;
 line-height: 34px;
 }
-
+nav{
+float: right;
+margin-top: -210px;
+}
+.nav{
+margin:0;
+padding:0;
+}
+.nav_element{
+margin:0;
+padding:0;
+list-style: none;
+display: inline-block;
+vertical-align: middle;
+margin-left: 45px;
+}
+.menu_top{
+color: #fff;
+text-decoration: none;
+text-transform:uppercase;
+text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+color: white;
+font-family: LeagueGothicRegular;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-transform: uppercase;
+}
+.menu_top:hover{
+border-bottom: 3px solid #edbfff;
+}
+.slider{
+height: 400px;
+background: rgba(0, 0, 0, .2);
+}
+.slider_element{
+float: left;
+}
+.slider_text{
+color: #fefefe;
+font-family: LeagueGothic;
+font-size: 60px;
+font-weight: 400;
+line-height: 36px;
+}
+.slider_text1{
+color: #edbfff;
+font-family: LeagueGothic;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+}
+.slider_text2{
+color: white;
+font-family: OpenSans;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+}
+.slider_conteiner{
+width:55%;
+overflow: hidden;
+}
+.iphone{
+width: 20%;
+padding-right: 78px;
+float: right;
+background-image: url(img/Iphone.png);
+background-repeat: no-repeat;
+}
 
