@@ -319,9 +319,9 @@ font-size: 16px;
 font-weight: 300;
 line-height: 24px;
 padding-bottom: 31px;
-padding-left:60px;
+padding-left:63px;
 margin-top: -6px;
-margin-bottom:-16px;
+margin-bottom:-15px;
 }
 .col_p1{
 text-shadow: 0.5px 0.9px 0 #0f1518;
@@ -331,7 +331,7 @@ font-size: 16px;
 font-weight: 300;
 line-height: 24px;
 padding-bottom: 34px;
-padding-left:80px;
+padding-left:82px;
 margin-bottom: -16px;
 }
 .col_p2{
@@ -413,13 +413,13 @@ font-weight: 400;
 line-height: 24px;
 }
 .col_a_1{
-padding-left:222px;
+padding-left:225px;
 }
 .col_a_2{
-padding-left:245px;
+padding-left:247px;
 }
 .col_a_3{
-padding-left:261px;
+padding-left:263px;
 }
 .col a:hover{
 text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
@@ -592,27 +592,27 @@ font-size: 30px;
 font-weight: 400;
 line-height: 24px;
 margin-bottom:20px;
-padding-left:32px;
+padding-left:31px;
 }
 .main_wraper2{
 position: relative;
 width: 365px;
 height: 41px;
-padding-left:99px;
+padding-left:97px;
 margin-bottom: 25px;
 }
 .main_wraper3{
 position: relative;
 width: 365px;
 height: 41px;
-padding-left:99px;
-margin-bottom: 21px;
+padding-left:97px;
+margin-bottom: 24px;
 }
 .main_wraper4{
 position: relative;
 width: 365px;
 height: 41px;
-padding-left:99px;
+padding-left:97px;
 margin-bottom: 30px;
 }
 .main_h{
@@ -623,6 +623,7 @@ color: #454545;
 font-family:OpenSansLight;
 font-size: 16px;
 line-height: 24px;
+
 }
 .main_h1{
 font-weight: 700;
@@ -689,11 +690,37 @@ font-weight: 400;
 line-height: 24px;
 }
 .edit_text{
-margin-left: -2px;
+margin-left: -3px;
 }
 .edit_text1{
-  padding-left:-4px;
-padding-right: -3px;
+padding-left:7px;
+padding-right: 7px;
+letter-spacing: 1.2px;
+}
+.edit_text2{
+padding-left:6px;
+padding-right: 7px;
+letter-spacing: 1.1px;
+}
+.edit_text3{
+padding-left:-5px;
+padding-right:3px;
+letter-spacing: -1px;
+}
+.edit_text4{
+padding-left:-12px;
+padding-right: 3px;
+letter-spacing: -1px;
+}
+.edit_text6{
+padding-left:-2px;
+padding-right: 3px;
+letter-spacing: 0.1px;
+}
+.edit_text7{
+padding-left:-1px;
+padding-right: 7px;
+letter-spacing: -1px;
 }
 .main_photo1{
 position: absolute;
@@ -701,8 +728,9 @@ width: 49px;
 height: 49px;
 box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
 background-color:#387375;
-margin-left: -66px;
+margin-left: -65px;
 border-radius: 100px;
+margin-top: 1px;
 }
 .main_photo2{
   position: absolute;
@@ -710,8 +738,9 @@ width: 49px;
 height: 49px;
 box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
 background-color:#387375;
-margin-left: -66px;
+margin-left: -64px;
 border-radius: 100px;
+margin-top: 1px;
 }
 .main_photo3{
   position: absolute;
@@ -719,9 +748,9 @@ width: 49px;
 height: 49px;
 box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
 background-color:#387375;
-margin-left: -66px;
+margin-left: -64px;
 border-radius: 100px;
-margin-top: 3px;
+margin-top: 1px;
 }
                                               /*----------------*/
 .main_wraper{
@@ -828,7 +857,7 @@ margin-left:196px;
     margin-top: -3px;
 
 }
-.slider_selection2 label.no_checked{
+.slider_selection2 label.no_checked2{
 background-color: #ffffff;
 -moz-border-radius: 8.5px;
 -webkit-border-radius: 8.5px;
@@ -843,5 +872,188 @@ background-image: linear-gradient(to top, #454545 0%, #6a6a6a 100%);
 border: 1px solid #454545;
 }
                                                /*radio*/
-/*main*/
+                                               /*main*/
+
+                                               /*brend*/
+.brend{
+height: 122px;
+background-color: #f9f9f9;
+border-top: 1px solid #e6e6e6;
+}
+.brend_wraper{
+width: 860px;
+height: 66px;
+display: inline-block;
+margin-left:23px;
+margin-top:25px;
+}
+#brend_body{
+float: left;
+width: 75px;
+height: 75px;
+}
+/* sprite brend*/
+#sprite_wraper{
+float: left;
+position: relative;
+overflow: hidden;
+}
+#sprite_wraper li{
+margin:0;
+padding:0;
+list-style:none;
+top:0;
+float: left;
+}
+#sprite_wraper a{
+display: block;
+width: 69px;
+  height: 64px;
+background: url(img/logos.png) 0 0 no-repeat;
+}
+#sprite_wraper .sprite_logo1{
+background-position:0 0;
+ width: 72px;
+ height: 64px;
+}
+#sprite_wraper .sprite_logo2{
+background-position: -270px 0;
+  width: 65px;
+  height: 65px;
+}
+#sprite_wraper .sprite_logo3{
+background-position:-270px 0;
+  width: 65px;
+  height: 65px;
+}
+#sprite_wraper .sprite_logo4{
+background-position:-410px -1px;
+  width: 50px;
+  height: 63px;
+}
+#sprite_wraper .sprite_logo5{
+background-position:-528px -22px;
+  width: 103px;
+  height: 21px;
+}
+#sprite_wraper .sprite_logo6{
+background-position:-697px -2px;
+  width: 78px;
+  height: 61px;
+}
+#brend_body{
+position: absolute;
+margin-top:26px;
+} 
+/* sprite brend*/
+/* sprite brend*/
+#sprite_wraper2{
+float: left;
+position: relative;
+overflow: hidden;
+margin-left: 80px;
+}
+#sprite_wraper2 li{
+margin:0;
+padding:0;
+list-style:none;
+top:0;
+float: left;
+}
+#sprite_wraper2 a{
+display: block;
+width: 69px;
+  height: 64px;
+background: url(img/logos.png) 0 0 no-repeat;
+}
+#sprite_wraper2 .sprite_logo1{
+background-position:0 0;
+ width: 72px;
+ height: 64px;
+}
+#sprite_wraper2 .sprite_logo2{
+background-position: -270px 0;
+  width: 65px;
+  height: 65px;
+}
+#sprite_wraper2 .sprite_logo3{
+background-position:-410px -1px;
+  width: 50px;
+  height: 63px;
+}
+#sprite_wraper2 .sprite_logo4{
+background-position:-528px -22px;
+  width: 103px;
+  height: 21px;
+}
+#sprite_wraper2 .sprite_logo5{
+
+}
+#sprite_wraper2 .sprite_logo6{
+background-position:-697px -2px;
+  width: 78px;
+  height: 61px;
+}
+#brend_body{
+margin-top:26px;
+} 
+/* sprite brend2*/
+/* sprite brend3*/
+#sprite_wraper3{
+float: left;
+position: relative;
+overflow: hidden;
+margin-left: 150px;
+}
+#sprite_wraper3 li{
+margin:0;
+padding:0;
+list-style:none;
+top:0;
+float: left;
+}
+#sprite_wraper3 a{
+display: block;
+width: 69px;
+  height: 64px;
+background: url(img/logos.png) 0 0 no-repeat;
+}
+#sprite_wraper3 .sprite_logo1{
+background-position:0 0;
+ width: 72px;
+ height: 64px;
+}
+#sprite_wraper3 .sprite_logo2{
+background-position: -270px 0;
+  width: 65px;
+  height: 65px;
+}
+#sprite_wraper3 .sprite_logo3{
+background-position:-270px 0;
+  width: 65px;
+  height: 65px;
+}
+#sprite_wraper3 .sprite_logo4{
+background-position:-410px -1px;
+  width: 50px;
+  height: 63px;
+}
+#sprite_wraper .sprite_logo5{
+background-position:-528px -22px;
+  width: 103px;
+  height: 21px;
+}
+#sprite_wraper3 .sprite_logo6{
+background-position:-697px -2px;
+  width: 78px;
+  height: 61px;
+}
+#brend_body{
+margin-top:26px;
+} 
+/* sprite brend*/
+
+
+                                               /*brend*/
+
 
