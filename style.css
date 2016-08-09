@@ -231,13 +231,13 @@ line-height: 30px;
 .slider_conteiner{
 width:55%;
 overflow: visible;
-margin-top: 91px;
+margin-top: 92px;
 margin-left: 0.1%;
 }
 .iphone{
 width: 20%;
-padding-right:148px;
-margin-top:-367px;
+padding-right:150px;
+margin-top:-365px;
 float: right;
 background-image: url(img/Iphone.png);
 background-repeat: no-repeat;
@@ -900,20 +900,20 @@ margin-left: 95px;
 .brend2{
 width: 72px;
 height: 64px;
-margin-left: 55px;
+margin-left: 56px;
 margin-top: 22px;
 }
 .brend3{
 width: 63px;
 height: 64px;
-margin-left: 61px;
+margin-left: 63px;
 border-radius:5px;
 margin-top: 22px;
 }
 .brend4{
 width: 50px;
 height: 63px;
-margin-left:67px;
+margin-left:64px;
 margin-top: 22px;
 }
 .brend5{
@@ -926,12 +926,12 @@ margin-top: 42px;
 .brend6 {
 width: 78px;
 height: 61px;
-margin-left:206px;
+margin-left:208px;
 }
                                                /*brend*/
                                                 /*main2*/
 .container_main2{
-height: 400px;
+height: 395px;
 background-color: #ececec;
 border-top: 1px solid #d8d8d8;
 }
@@ -945,13 +945,169 @@ display: inline-block;
 vertical-align: top;
 width: 33.333333333333336%;
 }
+.main_text1_1{
+width: 102px;
+height: 36px;
+text-shadow: 0 1px 0 white;
+color: #454545;
+font-family: LeagueGothicRegular;
+font-size: 48px;
+font-weight: 400;
+line-height: 34px;
+padding-bottom: 13px;
+}
+.main_text1{
+text-shadow: 0 1px 0 white;
+color: #b9b9b9;
+font-family: LeagueGothicRegular;
+font-size: 48px;
+font-weight: 400;
+line-height: 34px;	
+}
+.main_text2{
+text-shadow: 0.5px 0.9px 0 white;
+color: #c5c5c5;
+font-family: Georgia;
+font-size: 16px;
+font-style: italic;
+line-height: 24px;
+padding-bottom: 7px;
+}
+.main_text3{
+text-shadow: 0.5px 0.9px 0 white;
+color: #787878;
+font-family: OpenSansLight;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+	}
+.main_text3{
+padding-left:-2px;
+}
+.main_text4{
+text-shadow: 0.5px 0.9px 0 white;
+color: #454545;
+font-family: LeagueGothicRegular;
+font-size: 30px;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 8px;
+margin-left: 19px;
+margin-top:-1px;
+}
+.main_text4_1{
+margin-left: -2px;
+}
+.main_text5{
+text-shadow: 0.5px 0.9px 0 white;
+color: #787878;
+font-family: OpenSansLight;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+margin-left:20px;
+}
+.main_text5_5{
+margin-left:-2px;
+}
+.main_text5_5_1{
+margin-left:-2px;
+}
+.main_text6{
+text-shadow: 0.5px 0.9px 0 white;
+color: #454545;
+font-family: LeagueGothicRegular;
+font-size: 30px;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 8px;
+margin-left: 38px;
+margin-top:-1px;
+}
+.main_text7{
+text-shadow: 0.5px 0.9px 0 white;
+color: #787878;
+font-family: OpenSansLight;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+padding-bottom: 7px;
+margin-left: 38px;
+}                                                 /*main2*/
 
+                                                 /*footer*/
+footer{
+margin:0;
+padding:0;
+height: 114px;
+background-image: url(img/bgcopy.png); 
+background-repeat: no-repeat;
+background-size: cover;
+}
 
+footer a{
+height: 15px;
+text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+color: white;
+font-family: LeagueGothicRegular;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+text-transform: uppercase;
+text-decoration:none;
+}
+.footer_row {
+height: 20px;
+padding-top: 40px;
+width: 960px;
+}
+.footer_row8_8{
+height: 13px;
+text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+color: white;
+font-family: OpenSansLight;
+font-size: 12px;
+line-height: 34px;
+font-weight: 300;
+text-transform:none;
+}
+.footer_row8_8_1{
+height: 13px;
+text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+color: white;
+font-family: OpenSansLight;
+font-size: 12px;
+line-height: 34px;
+font-weight: 700;
 
+}
+.footer_row1{
+padding-left: 1px;
+}
+.footer_row2{
+padding-left: 38px;
+}
+.footer_row3{
+padding-left: 39px;
+}
+.footer_row4{
+padding-left: 39px;
+}
+.footer_row5{
+padding-left: 38px;
+}
+.footer_row5_1{
+padding-left: -3px;
+}
+.footer_row6{
+padding-left: 36px;
+}
+.footer_row8{
+margin-left: 292px;
+}
+.footer_row8_8_2{
+padding-left: 2px;
+}
 
-
-
-
-                                                 /*main2*/
 
 
