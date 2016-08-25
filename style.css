@@ -27,7 +27,6 @@ height: 278px;
 }
 .logo{
 width: 152px;
-
 height: 36px;
 text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 color: white;
@@ -49,14 +48,15 @@ line-height: 34px;
 }
 .b-nav{
 float: right;
-margin-top: -210px;
+margin-top: -230px;
+margin-left: -50px;
 }
 
 .nav_element{
 list-style: none;
 display: inline-block;
 vertical-align: middle;
-margin-left: 450px;
+margin-left: 420px;
 }
 .menu_top{
 color: #fff;
@@ -110,25 +110,6 @@ padding-right: 78px;
 float: right;
 background-image: url(img/Iphone.png);
 background-repeat: no-repeat;
-}
-
-body{
-font-family: Arial,sans-serif;
-padding: 0;
-margin:0;
-}
-header{
-height: 850px;
-background-image: url(img/bg.png);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: #e3e3e3;
-}
-.container{
-max-width:960px;
-width: 100%;
-margin: 0 auto;
 }
 .logo{
 padding-top: 72px;
@@ -597,7 +578,6 @@ overflow:visible;
 .main_row1{
   float: right;
   width: 480px;
-  float: right;
   margin-top: 143px;
 }
 .main_title3{
@@ -1079,6 +1059,7 @@ text-decoration:none;
 height: 20px;
 padding-top: 40px;
 width: 960px;
+position:relative;
 }
 
 .footer_element{
@@ -1130,9 +1111,11 @@ padding-left: -3px;
 padding-left: 36px;
 }
 .footer_row8{
-margin-left: 250px;
-
+margin-left: 820px;
+position:absolute;
+margin-top:-40px;
 }
+
 .footer_row8_8_2{
 padding-left: 2px;
 }
