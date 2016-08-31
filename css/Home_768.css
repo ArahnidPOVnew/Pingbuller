@@ -83,7 +83,11 @@ display:none;
 footer{
 height: 160px;
 }
+<<<<<<< HEAD
 .footer_element.footer_row8{
+=======
+.footer_row8{
+>>>>>>> c9bb25c044bc4ba0f44144b1a04cdf5dbb9bc652
 margin-left: 620px;
 padding-top:40px;
 }  
