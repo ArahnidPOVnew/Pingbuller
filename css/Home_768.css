@@ -277,10 +277,13 @@ display:none;
 footer{
 height: 160px;
 }
-.footer_element.footer_row8{
-margin-left: 620px;
-padding-top:40px;
-}  
+.footer_row8{
+margin-left: 600px;
+position:absolute;
+margin-top: 0px;
+float: none;
+}
+
  #sprite1 .cloud{
  background-position:0 0px;
  }
@@ -291,7 +294,7 @@ padding-top:40px;
 font-size: 12px;
 display: inline-block;
 vertical-align: top;
-width: 205px;
+ width: 247px;
 height: 163px;
 overflow:hidden; 
 }
@@ -324,11 +327,13 @@ font-family: LeagueGothicRegular;
 font-size: 24px;
 font-weight: 400;
 line-height: 24px;
+margin-left: 20px;
 }
 .main_text6{
 font-size: 24px;
 font-weight: 400;
 line-height: 24px;
+padding-bottom: 0px;
 }
 .container_row{
 	margin-top: 102px;
