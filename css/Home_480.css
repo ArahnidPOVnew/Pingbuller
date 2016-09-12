@@ -28,7 +28,7 @@ img {
   width: auto\9; /* ie8 */
 }
 .b-header{
-height: auto;
+height: 200px;
 }
 .logo{
 font-family: LeagueGothicRegular, 'Sans Serif', Arial;
@@ -39,7 +39,7 @@ font-family: LeagueGothicRegular, 'Sans Serif', Arial;
   padding-top: 70px;
   letter-spacing: -1px;
   margin-left: 38%;
-  margin-bottom: 30px;
+    margin-bottom: -2px;
 }
 .logo_after1{
   background: -webkit-linear-gradient(0deg, #33263a 0%, #745083 100%);
@@ -58,37 +58,61 @@ font-family: LeagueGothicRegular, 'Sans Serif', Arial;
 .nav{
   width: 245px;
   margin:0 auto;
-   z-index: 12;
+  z-index: 100;
   padding: 5px; 
   height: 25px;
   overflow:hidden;
   transition: all 0.4s;
   margin-left:169px;
   position:absolute;
+
 }
 .nav:hover{
  height: auto;
  background:#3e3147;
  border-radius:25px;
+ opacity: 0.9;
+background-color: #36293e;
+border: 1px solid #051116;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
+
 .nav li {
   display: block;
   margin:0;
   margin-bottom: 10px;
   text-align: center;
 }
+.nav_element{
+border-bottom:1px solid #523e5a;
+}
+.menu_top li:hover{
+width: 244px;
+height: 39px;
+opacity: 0.3;
+  background-color:#2b2231; 
+border-bottom:1px solid #edbfff;
+}
 
 .iphone{
-width:35%;
+display: none;
+/*width:35%;
 margin-top:-210px;
 margin-left:290px;
 background-image: url(img/Iphone.png);
 background-repeat: no-repeat;
 z-index: 70;
-height: auto;
-position:absolute;
+height: auto;*/
 }
+.iphone480{
+width: 192px;
+height: 304px;
+position: absolute;
+}
+.slider{
+height:230px;
 
+}
 .slider_selection{
 position: relative;
 overflow: hidden;
@@ -96,11 +120,9 @@ margin-left: 240px;
 margin-top:10px;
 padding-bottom: 40px;
 }
-.slider{
-height: auto;
-}
+
 .slider_text{
-font-size: 45px;
+font-size: 36px;
 font-weight: 400;
 line-height: 36px;
 }

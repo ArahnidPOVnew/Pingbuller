@@ -115,6 +115,9 @@ float: right;
 background-image: url(img/Iphone.png);
 background-repeat: no-repeat;
 }
+.iphone480{
+display:none;
+ }
 .logo{
 padding-top: 72px;
 padding-bottom: 169px;

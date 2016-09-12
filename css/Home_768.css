@@ -31,6 +31,9 @@ margin-left: 298px;
 margin-top: -313px;
 margin-bottom: 21px;
 }
+.iphone480{
+display:none;
+ }
 .slider_text{
     font-size: 49px;
  }
@@ -295,7 +298,7 @@ font-size: 12px;
 display: inline-block;
 vertical-align: top;
  width: 33.333333333333336%;
-height: 196px;
+height: 207px;
 overflow:hidden; 
 }
 .main_text br{
@@ -309,17 +312,17 @@ display:none;
 }
 .main_text3 {
    margin-top: 19px;
-   width: 218px;
+   width: 204px;
   }
 .main_text4{
 display:none;
 }
 .main_text5{
 margin-top: 19px;
-width: 218px;
+width: 204px;
 }
 .main_text7{
-width: 218px;
+width: 204px;
 }
  .content_1:before{
 content:"NEWS CATEGORIES";
