@@ -294,8 +294,8 @@ float: none;
 font-size: 12px;
 display: inline-block;
 vertical-align: top;
- width: 247px;
-height: 163px;
+ width: 33.333333333333336%;
+height: 196px;
 overflow:hidden; 
 }
 .main_text br{
@@ -307,8 +307,19 @@ display:none;
 .main_text2{
 display:none;
 }
+.main_text3 {
+   margin-top: 19px;
+   width: 218px;
+  }
 .main_text4{
 display:none;
+}
+.main_text5{
+margin-top: 19px;
+width: 218px;
+}
+.main_text7{
+width: 218px;
 }
  .content_1:before{
 content:"NEWS CATEGORIES";
@@ -334,6 +345,7 @@ font-size: 24px;
 font-weight: 400;
 line-height: 24px;
 padding-bottom: 0px;
+margin-bottom: 19px;
 }
 .container_row{
 	margin-top: 102px;
