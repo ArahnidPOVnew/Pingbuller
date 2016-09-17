@@ -7,7 +7,7 @@ header{
   background-image: url('../img/bg.png');
 	max-width: 320px;
 	width: 100%;
-	height: auto;
+	height: 517;
 	background-size: cover;
 	background-repeat: no-repeat;
 	float:none;
@@ -39,7 +39,7 @@ font-family: LeagueGothicRegular, 'Sans Serif', Arial;
   padding-top: 60px;
   letter-spacing: -1px;
   margin-left: 30%;
-  margin-bottom: 30px;
+  margin-bottom: -2px;
 }
 .logo_after1{
   background: -webkit-linear-gradient(0deg, #33263a 0%, #745083 100%);
@@ -56,7 +56,7 @@ font-family: LeagueGothicRegular, 'Sans Serif', Arial;
 }
 
 .nav{
-  margin-left:85px;
+  margin-left:91px;
   position:absolute;
 }
 .nav:hover{
@@ -91,9 +91,10 @@ background: none;
 float: none;
 }
 .slider_text{
-font-size: 45px;
+font-size: 36px;
 font-weight: 400;
 line-height: 36px;
+margin-left: 9px;
 }
 .slider_text1{
 font-size: 18px;
